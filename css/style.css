@@ -1,8 +1,13 @@
 body {
   background-color: #1E222A;
-  text-align: center;
+  /* text-align: center; */
 }
 
 h1 {
   color: #61AFEF;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
 }
