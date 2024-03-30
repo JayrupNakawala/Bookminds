@@ -45,14 +45,14 @@ nav {
   position: sticky;
 }
 
-a.nav_buttons {
+nav a {
   text-decoration: none;
   display: flex;
   cursor: default;
   size: auto;
 }
 
-ul.nav_buttons {
+nav ul {
   display: flex;
   list-style: none;
 }
@@ -94,26 +94,3 @@ img.about_us {
   padding: 0px 5vw 0px 0vw;
 }
 
-/* ul { */
-/*   padding: 1px; */
-/*   display: flex; */
-/*   margin-top: auto; */
-/* } */
-/**/
-/* ul li:hover, li a:hover { */
-/*   background-color: #CC000E; */
-/*   rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
-/* } */
-/**/
-/**/
-/* li a { */
-/*   color: #CC000E; */
-/* } */
-/**/
-/* li a:hover { */
-/*   color: white; */
-/* } */
-/* a { */
-/*   color: var(--primary-color); */
-/*   text-decoration: none; */
-/* } */
