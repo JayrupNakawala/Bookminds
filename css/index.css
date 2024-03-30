@@ -30,6 +30,15 @@ header {
 h1 {
   color: var(--primary-color);
   font-size: 8vw;
+  top: 0;
+  transition: all 0.3s ease;
+}
+
+h1.sticky {
+  position: fixed;
+  font-size: 4vw;
+  transform: translateX(-130%);
+  margin-top: 5px;
 }
 
 h2 {
@@ -41,8 +50,20 @@ nav {
   justify-content: center;
   display: flex;
   top: 0;
-  z-index: 1000;
-  position: sticky;
+  /* z-index: 1000; */
+
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+nav.sticky {
+  position: fixed;
+  transform: translateX(90%);
+  animation-duration: 0.5s;
+}
+
+nav.sticky button {
+  font-size: 1.5vw;
 }
 
 nav a {
