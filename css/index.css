@@ -3,7 +3,7 @@
   --primary-color: #F2EBC7;
   --secondary-color: #D964AF;
   --tertiary-color: #9D38BD;
-  --accent-color: #4C288B;
+  --accent-color: #B27217;
 }
 
 * {
@@ -30,40 +30,27 @@ header {
 h1 {
   color: var(--primary-color);
   font-size: 8vw;
+  padding: 2vh 0 0 20px;
   top: 0;
-  transition: all 0.3s ease;
-}
-
-h1.sticky {
-  position: fixed;
-  font-size: 4vw;
-  transform: translateX(-130%);
-  margin-top: 5px;
 }
 
 h2 {
   color: var(--primary-color);
-  font-size: 4vw;
+  font-size: 3.5vw;
+  text-decoration: underline;
+}
+
+p {
+  color: var(--primary-color);
+  font-size: 2vw;
 }
 
 nav {
   justify-content: center;
   display: flex;
   top: 0;
-  /* z-index: 1000; */
-
   position: relative;
   transition: all 0.3s ease;
-}
-
-nav.sticky {
-  position: fixed;
-  transform: translateX(90%);
-  animation-duration: 0.5s;
-}
-
-nav.sticky button {
-  font-size: 1.5vw;
 }
 
 nav a {
@@ -115,3 +102,34 @@ img.about_us {
   padding: 0px 5vw 0px 0vw;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  animation-duration: 0.5s;
+}
+
+.navbar.sticky {
+  position: fixed;
+  border-bottom: 1px solid var(--accent-color);
+  width: 100vw;
+  /* border-radius: 20px; */
+  background-color: var(--background-color);
+  justify-content: space-between;
+  flex-direction: row;
+  transform: translateY(-47vh);
+}
+
+.navbar.sticky h1 {
+  font-size: 3vw;
+}
+
+.navbar.sticky button {
+  font-size: 1vw;
+}
+
+.navbar.sticky nav {
+  padding: 0 10px 0 0;
+}
