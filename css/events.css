@@ -1,5 +1,31 @@
 @import 'default.css';
 
-header h1 {
-  padding: 9vh 0 0 0;
+h1 {
+  font-size: 5vw;
+  padding: 11vh 0 0 2vw;
 }
+
+hr {
+  color: var(--accent-color);
+  margin: 0 2vw 2vh 2vw;
+}
+
+.main{
+  display: flex;
+}
+
+.why_events {
+  padding: 2vw;
+}
+
+.why_events ul {
+  color: var(--primary-color);
+  font-size: 2vh;
+  padding-left: 3vh;
+}
+
+.main_image {
+  padding: 2vw;
+}
+
+

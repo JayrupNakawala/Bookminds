@@ -22,6 +22,11 @@ h1 {
   font-size: 8vw;
 }
 
+p {
+  color: var(--primary-color);
+  font-size: 2vh;
+}
+
 nav {
   justify-content: center;
   display: flex;
@@ -86,3 +91,4 @@ button.nav:hover {
 .navbar button {
   font-size: 1vw;
 }
+
