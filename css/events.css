@@ -35,6 +35,21 @@ h3 {
   padding: 2vw;
 }
 
+.upcoming_events {
+  display: flex;
+  flex-direction: row;
+  padding: 2vw;
+}
+
+.upcoming_events img{
+  padding: 0 2vw 0 0;
+}
+
+.upcoming_events div{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
 .past_events {
   align-items: center;
