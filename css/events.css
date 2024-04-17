@@ -11,9 +11,9 @@ h2 {
   text-decoration: underline;
 }
 
-hr {
-  color: var(--accent-color);
-  margin: 0 2vw 2vh 2vw;
+h3 {
+  font-size: 2vw;
+  color: var(--primary-color);
 }
 
 .top {
@@ -34,3 +34,18 @@ hr {
   padding: 2vw;
 }
 
+
+.past_events {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  padding: 2vw;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2vw;
+}
