@@ -22,6 +22,10 @@ h1 {
   font-size: 8vw;
 }
 
+h2 {
+  padding: 2vw;
+}
+
 p {
   color: var(--primary-color);
   font-size: 2vh;
@@ -32,6 +36,7 @@ nav {
   display: flex;
   top: 0;
   position: relative;
+  margin: 0 0 0 40vw;
   transition: all 0.3s ease;
 }
 
@@ -41,6 +46,24 @@ header a {
   display: flex;
   /* cursor: default; */
   size: auto;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 2vw;
+  background-color: var(--background-color);
+  margin: 10px;
+  padding: 1vh 2vw 0.4vh;
+  /* border-radius: 10px; */
+  color: var(--accent-color);
+  /* border: solid 2px var(--accent-color); */
+  transition: all ease-in-out 0.3s;
+}
+
+.btn:hover {
+  /* background-color: var(--accent-color); */
+  border-bottom: 1px solid var(--accent-color);
+  color: white;
 }
 
 nav ul {
@@ -57,7 +80,7 @@ button.nav {
   border-radius: 10px;
   color: var(--accent-color);
   border: solid 2px var(--accent-color);
-  transition: hover ease-in-out 0.2s;
+  transition: hover ease-in-out 0.4s;
 }
 
 button.nav:hover {

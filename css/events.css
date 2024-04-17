@@ -5,12 +5,18 @@ h1 {
   padding: 11vh 0 0 2vw;
 }
 
+h2 {
+  color: var(--primary-color);
+  font-size: 3.5vw;
+  text-decoration: underline;
+}
+
 hr {
   color: var(--accent-color);
   margin: 0 2vw 2vh 2vw;
 }
 
-.main{
+.top {
   display: flex;
 }
 
@@ -27,5 +33,4 @@ hr {
 .main_image {
   padding: 2vw;
 }
-
 

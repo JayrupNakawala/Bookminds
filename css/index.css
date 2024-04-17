@@ -49,6 +49,23 @@ p {
   font-size: 2vw;
 }
 
+.btn {
+  text-decoration: none;
+  font-size: 2vw;
+  background-color: var(--background-color);
+  margin: 10px;
+  padding: 1vh 2vw 0.4vh;
+  border-radius: 10px;
+  color: var(--accent-color);
+  border: solid 2px var(--accent-color);
+  transition: all ease-in-out 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
 nav {
   justify-content: center;
   display: flex;
@@ -60,30 +77,12 @@ nav {
 nav a {
   text-decoration: none;
   display: flex;
-  cursor: default;
   size: auto;
 }
 
 nav ul {
   display: flex;
   list-style: none;
-}
-
-button.nav {
-  cursor: pointer;
-  font-size: 2vw;
-  background-color: var(--background-color);
-  margin: 10px;
-  padding: 1vh 2vw 0.4vh;
-  border-radius: 10px;
-  color: var(--accent-color);
-  border: solid 2px var(--accent-color);
-  transition: hover ease-in-out 0.2s;
-}
-
-button.nav:hover {
-  background-color: var(--accent-color);
-  color: white;
 }
 
 div.about_us {
@@ -132,10 +131,12 @@ img.about_us {
   font-size: 3vw;
 }
 
-.navbar.sticky button {
+.navbar.sticky .btn{
   font-size: 1vw;
+  cursor: pointer;
 }
 
 .navbar.sticky nav {
   padding: 0 10px 0 0;
+  margin: 0 0 0 50vw;
 }
