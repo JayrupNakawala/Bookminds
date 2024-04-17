@@ -68,7 +68,7 @@ header a {
 .btn:hover {
   /* background-color: var(--accent-color); */
   border-bottom: 1px solid var(--accent-color);
-  color: white;
+  color: var(--primary-color);
 }
 
 nav ul {
