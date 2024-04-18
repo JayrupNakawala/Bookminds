@@ -1,7 +1,8 @@
-
+/* Imported CSS for the footer section */
 @import 'footer.css';
 
 
+/* Assigning colors globally as to easily allow experimentation */
 :root {
   --background-color: #0c1311;
   /* --background-color: #181A1B; */
@@ -13,6 +14,7 @@
   /* --accent-color: #B27217; */
 }
 
+/* resetting default margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
@@ -26,11 +28,13 @@ body {
 }
 
 header {
+	/* for the full screen effect */
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+	/* to make it a bit darker to increase contrast */
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../media/library-book-bookshelf-read.jpg') center center;
   background-attachment: fixed;
 }
