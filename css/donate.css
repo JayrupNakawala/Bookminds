@@ -1,0 +1,13 @@
+@import 'default.css';
+@import 'footer.css';
+
+h2 {
+  margin: 8vh 0 0 0;
+}
+
+.intro {
+  padding: 2vw;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
