@@ -3,11 +3,14 @@
 
 
 :root {
-  --background-color: #181A1B;
-  --primary-color: #F2EBC7;
+  --background-color: #0c1311;
+  /* --background-color: #181A1B; */
+  --primary-color: #b2bcb8;
+  /* --primary-color: #F2EBC7; */
   --secondary-color: #D964AF;
   --tertiary-color: #9D38BD;
-  --accent-color: #B27217;
+  --accent-color: #D69E5E;
+  /* --accent-color: #B27217; */
 }
 
 * {
@@ -28,7 +31,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url('../media/books-assortment-with-dark-background.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../media/library-book-bookshelf-read.jpg') center center;
   background-attachment: fixed;
 }
 
@@ -53,7 +56,7 @@ p {
 .btn {
   text-decoration: none;
   font-size: 2vw;
-  background-color: var(--background-color);
+  background-color: rgba(0,0,0,0.5);
   margin: 10px;
   padding: 1vh 2vw 0.4vh;
   border-radius: 10px;
@@ -63,8 +66,9 @@ p {
 }
 
 .btn:hover {
+  /* font-size: 2.2vw; */
   background-color: var(--accent-color);
-  color: white;
+  color: #975A37;
 }
 
 nav {
