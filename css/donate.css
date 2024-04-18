@@ -1,13 +1,53 @@
 @import 'default.css';
 @import 'footer.css';
 
+h1 {
+  padding: 2vw;
+}
 h2 {
   margin: 8vh 0 0 0;
+  padding: 2vw;
+  color: var(--primary-color);
+  /* text-decoration: none; */
 }
 
-.intro {
+h3 {
+  padding: 2vw;
+  font-size: 2vw;
+}
+
+p {
+  font-size: 1.5vw;
+  padding: 2vw;
+}
+
+.head {
+  background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../media/library-book-bookshelf-read.jpg');
   padding: 2vw;
   flex-direction: column;
   display: flex;
+  align-items: flex-start;
+}
+
+.head p {
+  padding: 0 0 0 2vw;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
+
+.mid ul {
+  padding: 0 0 1vw 0;
+}
+
+.mid li {
+  font-size: 1.5vw;
+  margin: 0 0 0 4vw;
+}
+
+
+
+
