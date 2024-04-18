@@ -24,6 +24,9 @@ h1 {
 }
 
 h2 {
+  color: var(--primary-color);
+  font-size: 3.5vw;
+  text-decoration: underline;
   padding: 2vw;
 }
 
