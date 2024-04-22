@@ -1,6 +1,5 @@
 /* Imported CSS for the footer section */
-@import 'footer.css';
-
+@import "footer.css";
 
 /* Assigning colors globally as to easily allow experimentation */
 :root {
@@ -8,9 +7,9 @@
   /* --background-color: #181A1B; */
   --primary-color: #b2bcb8;
   /* --primary-color: #F2EBC7; */
-  --secondary-color: #D964AF;
-  --tertiary-color: #9D38BD;
-  --accent-color: #D69E5E;
+  --secondary-color: #d964af;
+  --tertiary-color: #9d38bd;
+  --accent-color: #d69e5e;
   /* --accent-color: #B27217; */
 }
 
@@ -28,14 +27,15 @@ body {
 }
 
 header {
-	/* for the full screen effect */
+  /* for the full screen effect */
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-	/* to make it a bit darker to increase contrast */
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../media/library-book-bookshelf-read.jpg') center center;
+  /* to make it a bit darker to increase contrast */
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../media/library-book-bookshelf-read.jpg") center center;
   background-attachment: fixed;
 }
 
@@ -58,15 +58,16 @@ p {
 }
 
 .btn {
-	margin: 0;
+  margin: 0;
   text-decoration: none;
   font-size: 2vw;
-  background-color: rgba(16,24,32,0.5);
+  background-color: rgba(16, 24, 32, 0.5);
   margin: 10px;
   padding: 1vh 2vw 0.4vh;
-/*   text-shadow: 0 0 10px rgb(255,255,255); */
-  border-radius: 10px;
-	font-weight: 1200;
+  /*   text-shadow: 0 0 10px rgb(255,255,255); */
+  /* border-radius: 10px;*/
+=======
+
   color: var(--accent-color);
   /*border: solid 2px var(--accent-color);*/
   transition: all ease-in-out 0.3s;
@@ -76,12 +77,11 @@ p {
   /* font-size: 2.2vw; */
   /*background-color: var(--accent-color);*/
   backdrop-filter: blur(5px);
-  /*color: rgba(16,24,32,1);*/
-  color: var(--primary-color);
-background-color:  rgba(214,158,94, 0.65);
-	text-shadow: 0 0 10px rgb(255,255,255);
-	scale: 1.12;
-	
+  color: rgb(0, 0, 0);
+  background-color: rgba(214, 158, 94, 0.45);
+  text-shadow: 0 0 10px rgb(255, 160, 122);
+  scale: 1.12;
+
 }
 
 nav {
@@ -149,7 +149,7 @@ img.about_us {
   font-size: 3vw;
 }
 
-.navbar.sticky .btn{
+.navbar.sticky .btn {
   font-size: 1vw;
   cursor: pointer;
 }
