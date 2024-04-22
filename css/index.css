@@ -61,10 +61,10 @@ p {
 	margin: 0;
   text-decoration: none;
   font-size: 2vw;
-  background-color: rgba(0,0,0,0.45);
+  background-color: rgba(16,24,32,0.5);
   margin: 10px;
   padding: 1vh 2vw 0.4vh;
-	/*text-shadow: 0 0 10px rgb(255,255,255);*/
+/*   text-shadow: 0 0 10px rgb(255,255,255); */
   /* border-radius: 10px;*/
   color: var(--accent-color);
   /*border: solid 2px var(--accent-color);*/
@@ -74,8 +74,12 @@ p {
 .btn:hover {
   /* font-size: 2.2vw; */
   /*background-color: var(--accent-color);*/
-	backdrop-filter: blur(5px);
-  color: white;
+  backdrop-filter: blur(5px);
+  color: rgba(16,24,32,1);
+background-color:  rgba(214,158,94, 0.65);
+	text-shadow: 0 0 10px rgb(255,255,255);
+	scale: 1.12;
+	
 }
 
 nav {
