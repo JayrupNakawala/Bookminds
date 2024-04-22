@@ -66,6 +66,8 @@ p {
   padding: 1vh 2vw 0.4vh;
   /*   text-shadow: 0 0 10px rgb(255,255,255); */
   /* border-radius: 10px;*/
+=======
+
   color: var(--accent-color);
   /*border: solid 2px var(--accent-color);*/
   transition: all ease-in-out 0.3s;
@@ -79,6 +81,7 @@ p {
   background-color: rgba(214, 158, 94, 0.45);
   text-shadow: 0 0 10px rgb(255, 160, 122);
   scale: 1.12;
+
 }
 
 nav {
